@@ -18,3 +18,6 @@ class MySet:
 
     def size(self):
         return len(self.dictionary)
+
+    def clear(self):
+        return self.dictionary.clear()
